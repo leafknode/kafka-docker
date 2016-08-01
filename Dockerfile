@@ -1,6 +1,6 @@
 FROM java:openjdk-8-jre
 
-ENV KAFKA_VERSION="0.9.0.1" SCALA_VERSION="2.11"
+ENV KAFKA_VERSION="0.10.0.0" SCALA_VERSION="2.11"
 
 # Install Kafka, Zookeeper and other needed things
 RUN apt-get update && \
